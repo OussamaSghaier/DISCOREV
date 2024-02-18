@@ -1,11 +1,11 @@
 DISCOREV: crosstask knowledge DIStillation for COde REView
 ===============================
 
-This is the replication package accompanying our paper, **Improving the Learning of Code Review Successive Tasks with Cross-Task Knowledge Distillation** submitted to the *The ACM International Conference on the Foundations of Software Engineering 2024 (FSE'24)*.
+This is the replication package accompanying our paper, [**Improving the Learning of Code Review Successive Tasks with Cross-Task Knowledge Distillation**](https://arxiv.org/html/2402.02063v1) submitted to the *ACM International Conference on the Foundations of Software Engineering 2024 (FSE'24)*.
 
 Overview
 ---
-*DISCOREV* is a novel deep-learning architecturethat employs cross-task knowledge distillation to address code review tasks. In our approach, we utilize a cascade of models to enhance both comment generation and code refinement models. The fine-tuning of the comment generation model is guided by the code refinement model, while the fine-tuning of the code refinement model is guided by the quality estimation model. We implement this guidance using two strategies: a feedback-based learning objective and an embedding alignment objective
+*DISCOREV* is a novel deep-learning architecture that employs cross-task knowledge distillation to address code review tasks. In our approach, we utilize a cascade of models to enhance both comment generation and code refinement models. The fine-tuning of the comment generation model is guided by the code refinement model, while the fine-tuning of the code refinement model is guided by the quality estimation model. We implement this guidance using two strategies: a feedback-based learning objective and an embedding alignment objective
 
 This project is designed to be standalone and utilizes *Docker* for easy replication of results, as well as to facilitate the model's usability, modification, and execution.
 
