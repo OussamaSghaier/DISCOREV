@@ -1,7 +1,7 @@
 DISCOREV: crosstask knowledge DIStillation for COde REView
 ===============================
 
-This is the replication package accompanying our paper, [**Improving the Learning of Code Review Successive Tasks with Cross-Task Knowledge Distillation**](https://arxiv.org/html/2402.02063v1) submitted to the *ACM International Conference on the Foundations of Software Engineering 2024 (FSE'24)*.
+This is the replication package accompanying our paper, [**Improving the Learning of Code Review Successive Tasks with Cross-Task Knowledge Distillation**](https://arxiv.org/html/2402.02063v1), that is published in the *ACM International Conference on the Foundations of Software Engineering 2024 (FSE'24)*.
 
 Overview
 ---
