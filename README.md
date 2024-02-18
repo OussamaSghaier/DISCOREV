@@ -67,9 +67,8 @@ Follow the steps below to build the Docker image and train DISCOREV.
     docker run -it --rm --gpus all -v /tmp/DISCOREV/data/:/app/data --name discorev-container discorev-image
 
     ```
-
+    */tmp/DISCOREV/data* is the absolute path to the *data/* folder.
     The above command should be run once (the first time) to create a container from the built image. 
-    */tmp/DISCOREV/data* is the absolute path 
     For subsequent attempts, we should use the following commands to start and connect to the created docker container:
     ```bash
     docker start discorev-container
