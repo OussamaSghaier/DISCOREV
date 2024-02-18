@@ -84,6 +84,7 @@ class CodeReviewer(nn.Module):
 
 def get_tokenizer(model_name):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
+    print(model_name)
     tokenizer.special_dict = {
         f"<e{i}>": tokenizer.get_vocab()[f"<e{i}>"]
         for i in range(99, -1, -1)

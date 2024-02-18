@@ -5,7 +5,7 @@ def parse_args(parser):
     parser.add_argument("--model_name",
                         "-m",
                         type=str,
-                        default="Salesforce/codet5-base")
+                        default="microsoft/codereviewer")
     parser.add_argument(
         "--train_file",
         "-f",
@@ -22,7 +22,7 @@ def parse_args(parser):
     parser.add_argument(
         "--test_file",
         type=str,
-        default="data/split/ref-test-rb.jsonl",
+        default="data/ref-test-rb.jsonl",
         help="Path to the file that contains the test dataset.",
     )
     parser.add_argument("--continue_from_checkpoint", action="store_true")

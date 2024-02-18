@@ -54,6 +54,7 @@ class CodeReviewDataset(Dataset):
 
         print("Reading examples from {}".format(file_path))
         data = [json.loads(line) for line in open(file_path)]
+        data = data[0:10]
         print(f"data size: {len(data)}")
         for i in range(len(data)):
             if "id" not in data[i]:
